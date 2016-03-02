@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Anything less than immortality is a complete waste of time</title>
+
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon-152x152.png" sizes="152x152">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/Lukas-W/font-linux/v0.3/assets/font-linux.css">
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.teal-blue.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="mdl-layout mdl-layout__content">
+        <div class="mdl-grid">
+            <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
+                <img src="img/avatar.png" id="avatar">
+
+                <div class="mdl-card__supporting-text">
+                    <h1>Hi.</h1>
+
+                    <p>
+                        My name is Paweł and this is <i>kinda</i> my website.
+                    </p>
+                    <p>
+                        I use <a href="https://elementary.io/" target="_blank"><i class="fl-elementary"></i>&thinsp;elementary&thinsp;OS</a>
+                        and <a href="https://docs.python.org/3/glossary.html#term-pythonic" target="_blank"><i class="ion-social-python"></i>&thinsp;Python</a>
+                        -&nbsp;both awesome by the way&nbsp;- to create <a href="https://github.com/pawelad" target="_blank"><i class="fa fa-github"></i>&thinsp;stuff</a>.
+                        Usually seen listening to <a href="http://www.lastfm.pl/user/pawel_ad" target="_blank"><i class="fa fa-lastfm"></i>&thinsp;music</a>,
+                        except for when watching <a href="https://trakt.tv/users/pawelad" target="_blank"><i class="fa fa-television"></i>&thinsp;TV&thinsp;shows</a>
+                        or <a href="http://www.filmweb.pl/user/pawel_ad" target="_blank"><i class="fa fa-film"></i>&thinsp;movies</a>.
+                        Sleep enthusiast, except for when <a href="http://www.nba.com/" target="_blank"><i class="ion-ios-basketball"></i>&thinsp;NBA</a> is on.
+                        I love <a href="#" onclick="RandomGoogleMaps();return false;"><i class="fa fa-map-marker"></i>&thinsp;traveling</a> and -&nbsp;while not being very good at it&nbsp;-
+                        like taking <a href="https://www.flickr.com/photos/pawelad/albums" target="_blank"><i class="fa fa-flickr"></i>&thinsp;photos</a>.
+                    </p>
+                    <p>
+                        Feel free to <a href="mailto:pawel.ad@gmail.com"><i class="fa fa-envelope"></i>&thinsp;email</a> me about anything.
+                        Well, not <i>really</i> anything, but you know what I mean.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/chance.min.js"></script>
+    <script>
+        function RandomGoogleMaps() {
+            var country = chance.country({ full: true });
+            var url = 'https://maps.google.com/maps?q=' + country;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
