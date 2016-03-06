@@ -1,1 +1,1 @@
-## Should Jekyll repos even have README files?
+## Anything less than immortality is a complete waste of time
