@@ -11,11 +11,13 @@ Feel free to use, ask, fork, star, report bugs, fix them, suggest enhancements
 and point out any mistakes.
 
 ## Authors
-Developed and maintained by [Paweł Adamczak](https://github.com/pawelad).
+Developed and maintained by [Paweł Adamczak][github pawelad].
 
-Released under [MIT License](LICENSE).
+Released under [MIT License][license].
 
 [mdl]: https://www.getmdl.io/
 [jekyll]: https://jekyllrb.com/
 [ghp]: https://pages.github.com/
 [cloudfare]: https://www.cloudflare.com/
+[github pawelad]: https://github.com/pawelad
+[license]: https://github.com/pawelad/pawelad.github.io/blob/master/LICENSE
