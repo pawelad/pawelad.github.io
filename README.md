@@ -7,8 +7,8 @@ Nothing fancy, but I like it.
 
 Last seen at [pawelad.xyz](https://pawelad.xyz/)
 
-Feel free to use, ask, fork, star, report bugs, fix them,
-suggest enhancements and point out any mistakes.
+Feel free to use, ask, fork, star, report bugs, fix them, suggest enhancements
+and point out any mistakes.
 
 ## Authors
 Developed and maintained by [Paweł Adamczak](https://github.com/pawelad).
