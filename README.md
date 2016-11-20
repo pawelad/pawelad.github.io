@@ -7,17 +7,18 @@ Nothing fancy, but I like it.
 
 Last seen at [pawelad.xyz](https://pawelad.xyz/)
 
-Feel free to use, ask, fork, star, report bugs, fix them, suggest enhancements
-and point out any mistakes.
+Feel free to use, ask, fork, star, report bugs, fix them, suggest enhancements,
+add functionality and point out any mistakes.
 
 ## Authors
 Developed and maintained by [Paweł Adamczak][github pawelad].
 
 Released under [MIT License][license].
 
-[mdl]: https://www.getmdl.io/
-[jekyll]: https://jekyllrb.com/
-[ghp]: https://pages.github.com/
+
 [cloudflare]: https://www.cloudflare.com/
+[ghp]: https://pages.github.com/
 [github pawelad]: https://github.com/pawelad
+[jekyll]: https://jekyllrb.com/
 [license]: https://github.com/pawelad/pawelad.github.io/blob/master/LICENSE
+[mdl]: https://www.getmdl.io/
