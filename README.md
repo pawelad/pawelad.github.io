@@ -1,5 +1,5 @@
 ## Anything less than immortality is a complete waste of time
-My personal 'about me' website made with help of [Material Design Lite][mdl]
+Simple 'about me' website made with help of [Material Design Lite][mdl]
 and served with [Jekyll][jekyll] & [GitHub Pages][ghp]. SSL provided by 
 [CloudFlare][cloudflare].
 
