@@ -7,7 +7,7 @@ Nothing fancy, but I like it.
 Last seen at [pawelad.xyz](https://pawelad.xyz/)
 
 ## Authors
-Developed and maintained by [Paweł Adamczak][github pawelad].
+~~Developed and maintained~~ Hacked together by [Paweł Adamczak][github pawelad].
 
 Released under [MIT License][license].
 
