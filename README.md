@@ -4,7 +4,7 @@ and served via [GitHub Pages][ghp].
 
 Nothing fancy, but I like it.
 
-Last seen at [pawelad.xyz](https://pawelad.xyz/)
+Last seen at https://pawelad.me/
 
 ## Authors
 ~~Developed and maintained~~ Hacked together by [Paweł Adamczak][github pawelad].
