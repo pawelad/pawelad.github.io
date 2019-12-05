@@ -1,0 +1,50 @@
+{
+  "Belgium": [
+    "Brussels"
+  ],
+  "Canada": [
+    "Montreal",
+    "Niagara",
+    "Toronto"
+  ],
+  "Czech Republic": [
+    "Prague"
+  ],
+  "Irleand": [
+    "Dublin"
+  ],
+  "Italy": [
+    "Bergamo",
+    "Lierna",
+    "Milan"
+  ],
+  "Japan": [
+    "Tokyo"
+  ],
+  "Norway": [
+    "Molde",
+    "Moss"
+  ],
+  "Poland": [
+    "Gdańsk",
+    "Kraków",
+    "Poznań",
+    "Warszawa",
+    "Wrocław"
+  ],
+  "Spain": [
+    "Barcelona"
+  ],
+  "Taiwan": [
+    "Tainan",
+    "Taipei"
+  ],
+  "United Kingdom": [
+    "Bath",
+    "Belfast",
+    "Bristol",
+    "Edinburgh",
+    "Helston",
+    "London"
+  ]
+}
