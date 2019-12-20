@@ -58,20 +58,16 @@
   <!-- Extra JavaScript -->
   <script>
       // Read "visited_places.json"
-      var visitedPlaces;
-      let xmlHttp = new XMLHttpRequest();
-      xmlHttp.onreadystatechange = function() {
-        visitedPlaces = JSON.parse(xmlHttp.responseText);
-      };
-      xmlHttp.open("GET", "visited_places.json", true); // true for asynchronous
-      xmlHttp.send(null);
-
+      let visitedPlaces = {};
+      (async () => {
+        const response = await fetch('/visited_places.json');
+        visitedPlaces = await response.json();
+      })();
       function RandomVisitedPlace() {
-        let countryKeys = Object.keys(visitedPlaces);
-        let country = countryKeys[Math.floor(Math.random() * countryKeys.length)];
-        let city = visitedPlaces[country][Math.floor(Math.random() * visitedPlaces[country].length)];
-
-        let url = `https://maps.google.com/maps?q=${city}, ${country}`;
+        const countryKeys = Object.keys(visitedPlaces);
+        const country = countryKeys[Math.floor(Math.random() * countryKeys.length)];
+        const city = visitedPlaces[country][Math.floor(Math.random() * visitedPlaces[country].length)];
+        const url = `https://maps.google.com/maps?q=${city},${country}`;
         window.open(url, '_blank');
       }
   </script>
