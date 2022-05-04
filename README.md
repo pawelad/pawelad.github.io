@@ -9,10 +9,9 @@ Last seen at https://pawelad.me/
 ## Authors
 ~~Developed and maintained~~ Hacked together by [Paweł Adamczak][github pawelad].
 
-Released under [MIT License][license].
+Released under [Mozilla Public License 2.0](LICENSE).
 
 
 [ghp]: https://pages.github.com/
 [github pawelad]: https://github.com/pawelad
-[license]: https://github.com/pawelad/pawelad.github.io/blob/master/LICENSE
 [mdl]: https://www.getmdl.io/
