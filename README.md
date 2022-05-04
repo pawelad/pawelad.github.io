@@ -1,6 +1,6 @@
 # Anything less than immortality is a complete waste of time
-Simple 'about me' website made with help of [Material Design Lite][mdl]
-and served via [GitHub Pages][ghp].
+Simple 'about me' website made with help of [Material Design Lite] and served via
+[GitHub Pages] and [Cloudflare].
 
 Nothing fancy, but I like it.
 
@@ -12,6 +12,7 @@ Last seen at https://pawelad.me/
 Released under [Mozilla Public License 2.0](LICENSE).
 
 
-[ghp]: https://pages.github.com/
+[Cloudflare]: https://www.cloudflare.com/
+[GitHub Pages]: https://pages.github.com/
+[Material Design Lite]: https://www.getmdl.io/
 [github pawelad]: https://github.com/pawelad
-[mdl]: https://www.getmdl.io/
