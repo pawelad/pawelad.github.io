@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +33,9 @@
   <script defer src="js/material-design-lite/1.3.0/material.min.js"></script>
   <script defer src="js/fontawesome/6.1.1/all.min.js"></script>
 </head>
+
 <body>
+<main>
   <div class="mdl-layout mdl-layout__content">
     <div class="mdl-grid">
       <div class="mdl-card mdl-cell mdl-cell--12-col mdl-shadow--4dp">
@@ -45,38 +48,50 @@
             My name is Paweł and this is <i>kinda</i> my website.
           </p>
           <p>
-            I'm a developer that uses <a href="https://docs.python.org/3/glossary.html#term-pythonic"><i class="fab fa-python"></i>&thinsp;Python</a>
-            to create <a href="https://github.com/pawelad"><i class="fab fa-github"></i>&thinsp;stuff</a>.
-            Currently living in <a href="https://maps.google.com/maps?q=Kraków"><i class="fas fa-home"></i>&thinsp;Kraków</a>
-            where I'm usually seen wandering about and listening to <a href="http://www.last.fm/user/pawel_ad"><i class="fas fa-headphones"></i>&thinsp;music</a>.
-            Sleep enthusiast, except when <a href="https://www.youtube.com/watch?v=tgrkMYFtR6s"><i class="fas fa-basketball-ball"></i>&thinsp;NBA</a> is on.
-            I love <a href="#" onclick="RandomVisitedPlace();return false;"><i class="fas fa-map"></i>&thinsp;traveling</a>
-            and -&nbsp;while not being very good at it&nbsp;- like taking <a href="https://www.flickr.com/photos/pawelad/albums"><i class="fas fa-camera"></i>&thinsp;photos</a>.
+            I'm a developer that uses
+            <a href="https://docs.python.org/3/glossary.html#term-pythonic"><i class="fab fa-python"></i>&thinsp;Python</a>
+            to create
+            <a href="https://github.com/pawelad"><i class="fab fa-github"></i>&thinsp;stuff</a>.
+            Currently living in
+            <a href="https://maps.google.com/maps?q=Kraków"><i class="fas fa-home"></i>&thinsp;Kraków</a>
+            where I'm usually seen wandering about and listening to
+            <a href="http://www.last.fm/user/pawel_ad"><i class="fas fa-headphones"></i>&thinsp;music</a>.
+            Sleep enthusiast, except when
+            <a href="https://www.youtube.com/watch?v=tgrkMYFtR6s"><i class="fas fa-basketball-ball"></i>&thinsp;NBA</a> is on.
+            I love
+            <a href="#" onclick="RandomVisitedPlace();return false;"><i class="fas fa-map"></i>&thinsp;traveling</a>
+            and -&nbsp;while not being very good at it&nbsp;- like taking
+            <a href="https://www.flickr.com/photos/pawelad/albums"><i class="fas fa-camera"></i>&thinsp;photos</a>.
           </p>
           <p>
-            Feel free to <a href="mailto:pawel.ad@gmail.com"><i class="fas fa-envelope"></i>&thinsp;email</a> me about anything.
+            Feel free to
+            <a href="mailto:pawel.ad@gmail.com"><i class="fas fa-envelope"></i>&thinsp;email</a>
+            me about anything.
             Well, not <i>really</i> anything, but you know what I mean.
           </p>
         </div>
       </div>
     </div>
   </div>
+</main>
 
-  <!-- Extra JavaScript -->
-  <script>
-      // Read "visited_places.json"
-      let visitedPlaces = {};
-      (async () => {
-        const response = await fetch('/visited_places.json');
-        visitedPlaces = await response.json();
-      })();
-      function RandomVisitedPlace() {
-        const countryKeys = Object.keys(visitedPlaces);
-        const country = countryKeys[Math.floor(Math.random() * countryKeys.length)];
-        const city = visitedPlaces[country][Math.floor(Math.random() * visitedPlaces[country].length)];
-        const url = `https://maps.google.com/maps?q=${city},${country}`;
-        window.open(url, '_blank');
-      }
-  </script>
+<!-- Extra JavaScript -->
+<script>
+  // Read "visited_places.json"
+  let visitedPlaces = {};
+  (async () => {
+    const response = await fetch('/visited_places.json');
+    visitedPlaces = await response.json();
+  })();
+
+  function RandomVisitedPlace() {
+    const countryKeys = Object.keys(visitedPlaces);
+    const country = countryKeys[Math.floor(Math.random() * countryKeys.length)];
+    const city = visitedPlaces[country][Math.floor(Math.random() * visitedPlaces[country].length)];
+    const url = `https://maps.google.com/maps?q=${city},${country}`;
+    window.open(url, '_blank');
+  }
+</script>
 </body>
+
 </html>
