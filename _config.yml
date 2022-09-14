@@ -1,4 +1,5 @@
 exclude:
+  - ".editorconfig"
   - "CNAME"
   - "LICENSE"
   - "README.md"
