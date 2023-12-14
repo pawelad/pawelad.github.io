@@ -13,6 +13,7 @@
     "Dublin"
   ],
   "Italy": [
+    "Bellano",
     "Bergamo",
     "Como",
     "Lierna",
@@ -54,11 +55,16 @@
     "Wrocław"
   ],
   "Spain": [
-    "Barcelona"
+    "Barcelona",
+    "Madrid"
   ],
   "Taiwan": [
+    "Hualien",
     "Tainan",
     "Taipei"
+  ],
+  "Thailand": [
+    "Chiang Mai"
   ],
   "United Kingdom": [
     "Belfast",
